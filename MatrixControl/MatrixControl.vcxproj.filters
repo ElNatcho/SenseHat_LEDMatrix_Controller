@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CLEDMatrix.cpp">
+      <Filter>SenseHat_LED_Matrix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SenseHat_LED_Matrix">
+      <UniqueIdentifier>{880bb405-6c42-46e3-b9e5-3ba95d269bf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLEDMatrix.hpp">
+      <Filter>SenseHat_LED_Matrix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Fehlercodes.txt" />
+  </ItemGroup>
+</Project>

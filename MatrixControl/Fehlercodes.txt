@@ -1,0 +1,16 @@
+Fehlercodes - Übersicht:
+
+CLEDMatrix:
+	-0x0001 (BAD_COLOR_ARRAY_EXCEPTION):
+		Der Methode clearMatrix(uint8_t color[]) wurde ein Array übergeben, dessen
+		Länge größer oder kleiner 3 ist.
+	
+	-0x0002 (BAD_COLOR_ARRAY_EXCEPTION):
+		Der Methode setPixel(int x, int y, uint8_t color[]) wurde ein Arrey übergeben,
+		dessen Länge größer oder kleiner 3 ist.
+
+	-0x0003 (CANNOT_OPEN_FB_EXCEPTION):
+		Die Methode _loadFB(fb_path) hat versucht den Framebuffer fb_path zu laden und
+		ist dabei gescheitert.
+
+		
